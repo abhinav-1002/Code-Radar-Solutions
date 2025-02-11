@@ -9,6 +9,6 @@ int main() {
     else if(a>b)
     printf("No");
     else
-    printf("Equal")l;
+    printf("Equal");
     return 0;
 }
