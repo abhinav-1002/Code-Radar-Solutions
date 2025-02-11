@@ -6,10 +6,10 @@ int main() {
     scanf("%d %d",&a,&b);
     scanf("%c",&ch);
 
-    switch(ch):
+    switch(ch){
     case '+':printf("%d",a+b);break;
     case '-':printf("%d",a-b);break;
     case '*':printf("%d",a*b);break;
-    case '/':printf("%d",a/b);break;
-    return 0;
+    case '/':printf("%d",a/b);break;}
+return 0;
 }
