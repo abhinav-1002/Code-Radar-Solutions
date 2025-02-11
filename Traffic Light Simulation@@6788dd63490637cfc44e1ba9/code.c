@@ -7,7 +7,7 @@ int main() {
         case 'R':printf("Stop");break;
         case 'G':printf("Go");break;
         case 'Y':printf("Slow Down");break;
-        // default : printf("Invalid grade");
+        default : printf("Invalid grade");
     }
     return 0;
 }
