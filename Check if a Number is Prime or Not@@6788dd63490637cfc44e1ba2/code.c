@@ -11,8 +11,8 @@ int main() {
         }
     }
     if(temp==1)
-    printf("Not prime")
+    printf("Not prime");
     else
-    printf("Prime")
+    printf("Prime");
     return 0;
 }
