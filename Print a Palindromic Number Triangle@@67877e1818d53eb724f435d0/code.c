@@ -3,12 +3,13 @@
 #include <math.h>
 
 int main(){
-    int n;
+    int n,res;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int k=0;k<=n-i;k++)
         printf(" ");
-        printf("%d",pow(11,i));
+        res=(int)pow(11,i)
+        printf("%d",res);
         printf("\n");
     }
     return 0;
