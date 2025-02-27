@@ -8,7 +8,7 @@ int main(){
     for(int i=1;i<=n;i++){
         for(int k=0;k<=n-i;k++)
         printf(" ");
-        printf(pow(11,i));
+        printf("%d",pow(11,i));
         printf("\n");
     }
     return 0;
