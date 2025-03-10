@@ -3,7 +3,6 @@
 
 int main(){
     int n;
-    printf("Enter the number of rows ");
     scanf("%d",&n);
     int nsp=n/2,nst=1,ml=(n/2)+1;
 
